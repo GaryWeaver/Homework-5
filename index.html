@@ -37,17 +37,17 @@
         <div class="item2">
             <nav>
                 <ul class="nav-items">
-                    <li><a href="#">Summary</a></li>
-                    <li><a href="#">Education</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact Info</a></li>
+                    <li><a href="#summary">Summary</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Info</a></li>
                 </ul>
             </nav>
         </div>
 
         <div class="item1">
-            <h1>Gary Weaver</h1>
+            <h1 id="summary">Gary Weaver</h1>
             <h2>Software Engineering</h2>
         </div>
 
@@ -61,7 +61,7 @@
                 rusty. Recently I primarily use <i>C/C#</i> when I'm coding either for school
                 work or for fun practicing <i>game development</i>.
             </p>
-            <h3><u>Projects</u></h3>
+            <h3 id="projects"><u>Projects</u></h3>
             <h4>Project #1</h4>
             <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Luctus sit mattis donec arcu 
                 cras porttitor taciti fusce nulla. Metus justo netus duis senectus duis. Venenatis 
@@ -84,7 +84,7 @@
             <image src="portfolioImage2.jpeg"></image>
             <image src="portfolioImage1.jpeg"></image>
     
-            <h3><u>Education/Experience</u></h3>
+            <h3 id="education"><u>Education/Experience</u></h3>
             <p>
                 I've been taking CS classes for 4 years of my life,
                 so far I've learned about HTML, CSS, JS, Python, C,
@@ -107,15 +107,24 @@
                 </tr>
             </table>
     
-            <h4><b>Skills</b></h4>
-            <ol>
-                <li>Lorem Ipsum</li>
-                <li>Sodales Placerat</li>
-                <li>Primis Auctor</li>
-            </ol>
+            <div class="Skills"><h4 id="skills"><b>Skills</b></h4>
+                <ol>
+                    <li>Lorem Ipsum</li>
+                    <li>Sodales Placerat</li>
+                    <li>Primis Auctor</li>
+                </ol>
+                <div class="skills-grid">
+                    <div class="skill-item">Lorem</div>
+                    <div class="skill-item">Ipsum</div>
+                    <div class="skill-item">Sodales</div>
+                    <div class="skill-item">Placerat</div>
+                    <div class="skill-item important-skill">Primis</div>
+                    <div class="skill-item">Auctor</div>
+                </div>
+            </div>
         </div>
 
-        <div class="item4"><h3><u>Contact Information</u></h3>
+        <div class="item4"><h3 id="contact"><u>Contact Information</u></h3>
             <p>Phone Number: <a href="https://youtube.com">999-999-0000</a></p>
         </hr>
             <p>Email: <a href="https://gmail.com">totallyRealEmail@gmail.com</a></p>
